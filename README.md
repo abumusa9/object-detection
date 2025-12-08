@@ -1,4 +1,4 @@
-    Advanced Computer Vision System for Autonomous Vehicles
+   # Advanced Computer Vision System for Autonomous Vehicles
   Project Overview
 This project implements an advanced computer vision system for autonomous vehicles using the YOLO (You Only Look Once) architecture. 
 The system provides real-time object detection and tracking capabilities, specifically designed for deployment on AWS Docker Free Tier with interactive dashboards for insights and monitoring.
@@ -30,40 +30,40 @@ Prerequisites
 •1GB+ RAM
 •Internet connection for model download
 
-# Clone the repository
-# Create virtual environment
+ Clone the repository
+Create virtual environment
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
-# Install dependencies
+Install dependencies
 pip install -r requirements.txt
-# Run the application
+Run the application
 python main.py
-# Access the application at http://localhost:5000
+Access the application at http://localhost:5000
 
-  # Docker Deployment
-# Build the Docker image
+Docker Deployment
+Build the Docker image
 docker build -t cv-backend:latest .
-# Run the container
+Run the container
 docker run -d --name cv-backend -p 5000:5000 cv-backend:latest
 
-  # API Documentation
-  Health Check
-  GET /api/cv/health
-  Returns system health status.
+API Documentation
+Health Check
+GET /api/cv/health
+Returns system health status.
 
-  Model Information
-  GET /api/cv/model_info
-  Returns information about the loaded YOLO model.
+Model Information
+GET /api/cv/model_info
+Returns information about the loaded YOLO model.
 
-  Image Detection
-  POST /api/cv/detect
-  Content-Type: multipart/form-data
-  Body: image file
-  Performs object detection on uploaded image.
+Image Detection
+POST /api/cv/detect
+Content-Type: multipart/form-data
+Body: image file
+Performs object detection on uploaded image.
 
-  Video Processing
-  POST /api/cv/detect_video
-  Content-Type: multipart/form-data
-  Body: video file
+Video Processing
+POST /api/cv/detect_video
+Content-Type: multipart/form-data
+Body: video file
   Processes video for object detection statistics.
 
