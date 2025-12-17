@@ -1,4 +1,8 @@
    # Advanced Computer Vision System for Autonomous Vehicles
+
+[![Autonomous Vehicle Tracking System](https://img.youtube.com/vi/py2-c2PUaPE/maxresdefault.jpg)](https://youtu.be/py2-c2PUaPE)
+
+   
   Project Overview
 This project implements an advanced computer vision system for autonomous vehicles using the YOLO (You Only Look Once) architecture. 
 The system provides real-time object detection and tracking capabilities, specifically designed for deployment on AWS Docker Free Tier with interactive dashboards for insights and monitoring.
