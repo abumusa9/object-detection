@@ -10,31 +10,31 @@ This project implements an advanced computer vision system for autonomous vehicl
 The system provides real-time object detection and tracking capabilities, specifically designed for deployment on AWS Docker Free Tier with interactive dashboards for insights and monitoring.
 
  #### Key Features
-•Real-time Object Detection: Uses YOLOv8n (nano) for lightweight, fast inference
-•Multi-object Recognition: Detects 80 different object classes including vehicles, pedestrians, traffic signs
-•Interactive Dashboard: Modern web interface with drag-and-drop functionality
-•Docker Containerized: Easy deployment and scaling
-•REST API: Complete API for integration with other systems
-•Performance Monitoring: Real-time statistics and inference time tracking
+- Real-time Object Detection: Uses YOLOv8n (nano) for lightweight, fast inference
+- Multi-object Recognition: Detects 80 different object classes including vehicles, pedestrians, traffic signs
+- Interactive Dashboard: Modern web interface with drag-and-drop functionality
+- Docker Containerized: Easy deployment and scaling
+- REST API: Complete API for integration with other systems
+- Performance Monitoring: Real-time statistics and inference time tracking
 
  #### Backend Components
-•Flask Web Server: Serves both API endpoints and frontend
-•YOLO Model: YOLOv8n for object detection
-•Image Processing: OpenCV for image manipulation
-•API Endpoints: RESTful services for detection and system info
+- Flask Web Server: Serves both API endpoints and frontend
+- YOLO Model: YOLOv8n for object detection
+- Image Processing: OpenCV for image manipulation
+- API Endpoints: RESTful services for detection and system info
 
  #### Frontend Components
-•Interactive Dashboard: HTML5/CSS3/JavaScript interface
-•File Upload: Drag-and-drop image and video upload
-•Real-time Results: Live detection results with confidence scores
-•Statistics Display: Performance metrics and system information
+- Interactive Dashboard: HTML5/CSS3/JavaScript interface
+- File Upload: Drag-and-drop image and video upload
+- Real-time Results: Live detection results with confidence scores
+- Statistics Display: Performance metrics and system information
 
  #### Quick Start
 ##### Prerequisites
-•Python 3.11+
-•Docker (optional)
-•1GB+ RAM
-•Internet connection for model download
+- **Python 3.11+**
+- **Docker (optional)**
+- **1GB+ RAM**
+- **Internet connection for model download**
 
 #### Clone the repository
 ##### Create virtual environment
