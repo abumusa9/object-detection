@@ -2,7 +2,7 @@
 
 ### Project Demo Video
 
-Click the link to watch the full demo👇
+Click the link to watch the full demo -->
 [Object Detection Demo](https://abumusalab.com.ng/object-detection/index.html/)
 
   #### Project Overview
