@@ -3,7 +3,7 @@
 ### Project Demo Video
 
 Click the link to watch the full demo -->
-[Object Detection Demo](https://abumusalab.com.ng/object-detection/index.html/)
+[Object Detection Demo](https://abumusalab.com.ng/object-detection/)
 
   #### Project Overview
 This project implements an advanced computer vision system for autonomous vehicles using the YOLO (You Only Look Once) architecture. 
