@@ -1,6 +1,11 @@
    # Advanced Computer Vision System for Autonomous Vehicles
 
-[![Autonomous Vehicle Tracking System](https://img.youtube.com/vi/py2-c2PUaPE/maxresdefault.jpg)](https://youtu.be/py2-c2PUaPE)
+## 📺 Project Demo Video
+
+Click the image below to watch the full demo on YouTube 👇
+
+[![Customer Churn Analysis Demo](https://raw.githubusercontent.com/abumusa9/object-detection/main/docs/objectDetectorImage.png)](https://youtu.be/py2-c2PUaPE)
+
 
    
   Project Overview
