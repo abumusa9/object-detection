@@ -2,8 +2,8 @@
 
 ### Project Demo Video
 
-Click the link below to watch the full demo👇
-[Object Detection Demo](https://abumusalab.com.ng/object-detection/index.html)
+Click the link to watch the full demo👇
+[Object Detection Demo](https://abumusalab.com.ng/object-detection/index.html/)
 
   #### Project Overview
 This project implements an advanced computer vision system for autonomous vehicles using the YOLO (You Only Look Once) architecture. 
@@ -38,38 +38,45 @@ The system provides real-time object detection and tracking capabilities, specif
 
 #### Clone the repository
 ##### Create virtual environment
+```bash
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
+```
 ##### Install dependencies
+```bash
 pip install -r requirements.txt
-Run the application
+```
+##### Run the application
+```bash
 python main.py
+```
 Access the application at http://localhost:5000
 
 ##### Docker Deployment
-Build the Docker image
+##### Build the Docker image
+```bash
 docker build -t cv-backend:latest .
 Run the container
 docker run -d --name cv-backend -p 5000:5000 cv-backend:latest
-
+```
 #### API Documentation
-Health Check
-GET /api/cv/health
-Returns system health status.
+- Health Check
+- GET /api/cv/health
+- Returns system health status.
 
 #### Model Information
-GET /api/cv/model_info
-Returns information about the loaded YOLO model.
+- GET /api/cv/model_info
+- Returns information about the loaded YOLO model.
 
 #### Image Detection
-POST /api/cv/detect
-Content-Type: multipart/form-data
-Body: image file
-Performs object detection on uploaded image.
+- POST /api/cv/detect
+- Content-Type: multipart/form-data
+- Body: image file
+- Performs object detection on uploaded image.
 
 #### Video Processing
-POST /api/cv/detect_video
-Content-Type: multipart/form-data
-Body: video file
-  Processes video for object detection statistics.
+- POST /api/cv/detect_video
+- Content-Type: multipart/form-data
+- Body: video file
+  - Processes video for object detection statistics.
 
