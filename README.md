@@ -1,14 +1,14 @@
-   # Advanced Computer Vision System for Autonomous Vehicles
+   ## Advanced Computer Vision System for Autonomous Vehicles
 
-## 📺 Project Demo Video
+### Project Demo Video
 
-Click the image below to watch the full demo on YouTube 👇
+Click the link below to watch the full demo👇
 
-[![Customer Churn Analysis Demo](https://raw.githubusercontent.com/abumusa9/object-detection/main/docs/objectDetectorImage.png)](https://youtu.be/py2-c2PUaPE)
+[![Object Detection Demo]](https://abumusalab.com.ng/object-detection/index.html)
 
 
    
-  Project Overview
+  #### Project Overview
 This project implements an advanced computer vision system for autonomous vehicles using the YOLO (You Only Look Once) architecture. 
 The system provides real-time object detection and tracking capabilities, specifically designed for deployment on AWS Docker Free Tier with interactive dashboards for insights and monitoring.
 
