@@ -1,7 +1,6 @@
    ## Advanced Computer Vision System for Autonomous Vehicles
 
 ### Project Demo Video
-
 Click the link to watch the full demo -->
 [Object Detection Demo](https://abumusalab.com.ng/object-detection/)
 
